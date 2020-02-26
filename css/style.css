@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body {
+  background-color: rgb(251, 251, 230);
+}
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+.uczen {
+  width: 180px;
+  font-weight: bold;
+  line-height: 40px;
+}
+#title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.pool {
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  margin: 20px 0;
+}
+input,
+.srednia {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+.zajecia-dodatkowe {
+  width: 200px;
+}
+#oblicz {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+#oblicz:hover {
+  background: rgb(138, 137, 137);
+  color: white;
+}
